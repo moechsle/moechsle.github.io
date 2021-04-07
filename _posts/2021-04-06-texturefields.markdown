@@ -2,12 +2,15 @@
 layout: post
 title: "Texture Fields: Learning Texture Representations in Function Space."
 date: 2021-04-06 00:00:00 +0300
-description: Learning Texture Representations in Function Space. # Add post description (optional)
-img: tex_felds.png # Add image post (optional)
+authors: M. Oechsle, L. Mescheder, M. Niemeyer, T. Strauss, A. Geiger
+conference: ICCV 2019 (oral)
+videolink: https://www.youtube.com/embed/pbfeE0qmD2E?autoplay=1&mute=1
+description: # Add post description (optional)
+img: blackroof.gif # Add image post (optional)
 tags: [3D deep learning, continous function as 3D representation] # add tag
 ---
 
-In recent years, substantial progress has been achieved in learning-based reconstruction of 3D objects. At the same time, generative models were proposed that can generate highly realistic images. However, despite this success in these closely related tasks, texture reconstruction of 3D objects has received little attention from the research community and state-of-the-art methods are either limited to comparably low resolution or constrained experimental setups. A major reason for these limitations is that common representations of texture are inefficient or hard to interface for modern deep learning techniques. In this paper, we propose Texture Fields, a novel texture representation which is based on regressing a continuous 3D function parameterized with a neural network. Our approach circumvents limiting factors like shape discretization and parameterization, as the proposed texture representation is independent of the shape representation of the 3D object. We show that Texture Fields are able to represent high frequency texture and naturally blend with modern deep learning techniques. Experimentally, we find that Texture Fields compare favorably to state-of-the-art methods for conditional texture reconstruction of 3D objects and enable learning of probabilistic generative models for texturing unseen 3D models. We believe that Texture Fields will become an important building block for the next generation of generative 3D models.
+In recent years, substantial progress has been achieved in learning-based reconstruction of 3D objects. At the same time, generative models were proposed that can generate highly realistic images. However, despite this success in these closely related tasks, texture reconstruction of 3D objects has received little attention from the research community and state-of-the-art methods are either limited to comparably low resolution or constrained experimental setups. A major reason for these limitations is that common representations of texture are inefficient or hard to interface for modern deep learning techniques. In this paper, we propose Texture Fields, a novel texture representation which is based on regressing a continuous 3D function parameterized with a neural network. Our approach circumvents limiting factors like shape discretization and parameterization, as the proposed texture representation is independent of the shape representation of the 3D object. We show that Texture Fields are able to represent high-frequency texture and naturally blend with modern deep learning techniques. Experimentally, we find that Texture Fields compare favorably to state-of-the-art methods for conditional texture reconstruction of 3D objects and enable learning of probabilistic generative models for texturing unseen 3D models. We believe that Texture Fields will become an important building block for the next generation of generative 3D models.
 
 [![Paper]()](http://www.cvlibs.net/publications/Oechsle2019ICCV.pdf "Paper")\\
 [![Code]()](https://github.com/autonomousvision/texture_fields "Code")\\
